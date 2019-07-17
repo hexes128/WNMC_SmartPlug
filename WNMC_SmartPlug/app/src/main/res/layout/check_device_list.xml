@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <CheckedTextView
+        android:id="@+id/checkb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:layout_margin="10dp"
+
+        />
+
+
+
+
+</LinearLayout>
